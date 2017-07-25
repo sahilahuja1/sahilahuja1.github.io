@@ -1,0 +1,18 @@
+{
+  "name": "Sahil Ahuja",
+  "version": "1.0.0",
+  "description": "Sahil's personal website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahilahuja1/sahilahuja1.github.io"
+  },
+  "author": "sahilahuja1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilahuja1/sahilahuja1.github.io/issues"
+  },
+  "homepage": "https://github.com/sahilahuja1/sahilahuja1.github.io",
+  "dependencies": {
+  }
+}
