@@ -303,6 +303,7 @@ a {
   background-color: #f5f5f5;
   border-radius: 5px;
   transition: all 0.3s ease;
+  margin-bottom: 10px;
 }
 
 .right a.resume:hover {

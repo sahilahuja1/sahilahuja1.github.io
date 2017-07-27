@@ -1,44 +1,37 @@
 <html>
 <head>
-  <title>Resume | Brittany Chiang</title>
+  <title>Resume | Sahil Ahuja</title>
   <meta charset="UTF-8"><!--[if IE]><![endif]-->
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>Brittany Chiang | Web Developer &amp; UX Enthusiast</title>
-  <link rel="shortcut icon" href="http://brittanychiang.com/img/logo-black.png" hreflang="en-us">
+  <title>Sahil Ahuja</title>
 
-  <meta property="og:title" content="Resume | Brittany Chiang" />
+<!--   <meta property="og:title" content="Resume | Sahil Ahuja" />
   <meta property="og:description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.brittanychiang.com/resume" />
-  <meta property="og:site_name" content="Resume | Brittany Chiang" />
-  <meta property="og:image" content="http://brittanychiang.com/img/og.png" />
+  <meta property="og:url" content="http://www.sahilrajahuja.com/resume" />
+  <meta property="og:site_name" content="Resume | Sahil Ahuja" />
+  <meta property="og:image" content="http://sahilrajahuja.com/img/og.png" />
   <meta property="og:image:width" content="1280" />
   <meta property="og:image:height" content="672" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:locale" content="en_US">
+ -->
+  <!-- <meta name="description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design.">
+  <meta name="keywords" content="design, development, web, sahilahuja1, sahil, ahuja, javascript, upenn">
+  <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" /> -->
 
-  <meta name="description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design.">
-  <meta name="keywords" content="design, development, web, bchiang7, brittany, chiang, javascript, northeastern">
-  <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
-
-  <meta itemprop="name" content="Resume | Brittany Chiang">
+  <!-- <meta itemprop="name" content="Resume | Sahil Ahuja">
   <meta itemprop="description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design.">
-  <meta itemprop="image" content="http://brittanychiang.com/img/og.png">
+  <meta itemprop="image" content="http://brittanychiang.com/img/og.png"> -->
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="http://brittanychiang.com/resume">
-  <meta name="twitter:site" content="@bchiang7">
-  <meta name="twitter:creator" content="@bchiang7">
-  <meta name="twitter:title" content="Resume | Brittany Chiang">
-  <meta name="twitter:description" content="Design-minded, detail oriented web developer passionate about combining beautiful code with beautiful design.">
-  <meta name="twitter:image:src" content="http://brittanychiang.com/img/og.png">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/resume.css">
 </head>
+
 <body>
   <div id="content"></div>
   <script src="https://fb.me/react-0.14.6.js"></script>
@@ -47,14 +40,14 @@
   <script type="text/jsx">
 
     var DATA = {
-      name: "Hey, I'm Brittany",
-      subtext: "Developer & designer based in Boston, MA",
-      jobStatus: "Software Engineer Co-op @ Starry Internet",
-      twitterURL: 'https://twitter.com/bchiang7',
-      instaURL: 'https://www.instagram.com/bchiang7/',
-      githubURL: 'https://github.com/bchiang7',
-      linkedinURL: 'https://www.linkedin.com/in/bchiang7',
-      resumeURL: 'http://brittanychiang.com/resume2017.pdf'
+      name: "Hi, I'm Sahil",
+      subtext: "Technology enthusiast studying in Philadelphia, PA",
+      jobStatus: "Software Engineer Intern @ Facebook",
+      facebookURL: 'https://www.facebook.com/sahilrajahuja',
+      instaURL: 'https://www.instagram.com/sahil_ahuja_',
+      githubURL: 'https://github.com/sahilahuja1/',
+      linkedinURL: 'https://www.linkedin.com/in/sahuja1/',
+      resumeURL: 'http://sahilrajahuja.com/resume.pdf'
     }
 
     var App = React.createClass({
@@ -65,7 +58,7 @@
               name={this.props.profileData.name}
               subtext={this.props.profileData.subtext}
               jobStatus={this.props.profileData.jobStatus}
-              twitterURL={this.props.profileData.twitterURL}
+              facebookURL={this.props.profileData.facebookURL}
               instaURL={this.props.profileData.instaURL}
               githubURL={this.props.profileData.githubURL}
               linkedinURL={this.props.profileData.linkedinURL}
@@ -90,7 +83,7 @@
                 <div className="subtext">{this.props.subtext}</div>
                 <div className="jobStatus">{this.props.jobStatus}</div>
                 <div className="social-links">
-                  <a href={this.props.twitterURL} target="_blank"><i className="fa fa-twitter"></i></a>
+                  <a href={this.props.facebookURL} target="_blank"><i className="fa fa-facebook"></i></a>
                   <a href={this.props.instaURL} target="_blank"><i className="fa fa-instagram"></i></a>
                   <a href={this.props.githubURL} target="_blank"><i className="fa fa-github"></i></a>
                   <a href={this.props.linkedinURL}  target="_blank"><i className="fa fa-linkedin"></i></a>
@@ -110,9 +103,9 @@
               <div className="introduction">
                 <h4>Intro</h4>
                 <div className="content">
-                  <p className="intro-p">I&#39;m currently in my fourth year (out of five) studying computer science and interaction design at Northeastern University.</p>
-                  <p className="intro-p">I enjoy being the bridge between engineering and design, and feel right at home as a front end engineer. I&#39;m experienced in developing and designing products for the web, from simple landing pages to full-fledged web apps.</p>
-                  <span className="intro-p job-pls">I&#39;m currently looking for my third and final co-op (from July to December 2017) before I graduate in 2018!</span>
+                  <p className="intro-p">I&#39;m a senior studying computer science and business at the University of Pennsylvania.</p>
+                  <p className="intro-p"></p>
+                  <span className="intro-p job-pls"></span>
                 </div>
               </div>
               <div className="skills">
@@ -120,81 +113,112 @@
                 <div className="content">
                   <div className="skill-category">
                     <strong>Languages: &nbsp;</strong>
-                    <span>JavaScript (ES6), HTML5, CSS3, Java, Python</span>
+                    <span>C • CSS • Java • Javascript • Hack • HTML • Objective C • OCaml • PHP • Python • R • Swift • XML</span>
                   </div>
                   <div className="skill-category">
                     <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-                    <span>jQuery, Bootstrap, Foundation, Handlebars, Node, Backbone, Marionette, Cordova, MongoDB, Angular, Express, React</span>
+                    <span>jQuery • Bootstrap • Node • Backbone • Express • React</span>
                   </div>
                   <div className="skill-category">
-                    <strong>Tools: &nbsp;</strong>
-                    <span>Git &amp; Github, Command Line, Grunt, Postman, Adobe Photoshop, InDesign</span>
+                    <strong>Paradigms: &nbsp;</strong>
+                    <span>Mobile Development • Full Stack Programming • Test-Driven Development • UI Design • API Design</span>
                   </div>
                 </div>
               </div>
               <div className="education">
                 <h4>Education</h4>
                 <div className="content">
-                  <div className="university"><a href="http://www.northeastern.edu/" target="_blank">Northeastern University</a></div>
-                  <div className="college"><a href="http://www.ccis.northeastern.edu/" target="_blank">College of Computer and Information Science</a></div>
-                  <div className="major"><strong>Major:</strong> Information Science</div>
-                  <div className="minor"><strong>Minor:</strong> Interaction Design</div>
-                  <div className="conc"><strong>Concentration:</strong> Human Computer Interaction</div>
-                  <div className="study-abroad"><strong>Study Abroad:</strong> Experience Design of Travel in Budapest, Hungary</div>
+                  <div className="university"><a href="http://www.upenn.edu/" target="_blank">UNIVERSITY OF PENNSYLVANIA</a></div>
+
+                  <div className="college"><a href="https://www.wharton.upenn.edu" target="_blank">The Wharton School</a></div>
+                  <div className="conc"><strong>Concentration:</strong> Operations, Information, and Decisions</div>
+
+                  <div className="college"><a href="http://www.seas.upenn.edu" target="_blank">School of Engineering and Applied Science</a></div>
+                  <div className="major"><strong>Major:</strong> Computer Science</div>
+
                   <div className="grad-date">Expected Graduation: May 2018</div>
                 </div>
               </div>
               <div className="experience">
                 <h4>Experience</h4>
                 <div className="content">
+
                   <div className="exp-item">
                     <div className="job">
-                      <a className="company" href="https://starry.com/" target="_blank">Starry, Inc.</a>
-                      <div className="duration">July 2016 &mdash; Present</div>
+                      <a className="company" href="https://instagram.com/" target="_blank">INSTAGRAM</a>
+                      <div className="duration">May 2017 &mdash; August 2017</div>
                     </div>
-                    <div className="title">Software Engineer Co-op</div>
+                    <div className="title">Software Engineering Intern</div>
+                    My team’s goal was to increase monthly active users by growing app installs. I was responsible for a scrolling unit of Instagram photo suggestions in the Facebook app.
                     <ul className="description">
-                      <li>Build out major features of Starry’s customer-facing android app with Cordova, utilizing JavaScript (ES6), Handlebars, CSS3, Node.js, and Backbone.js</li>
-                      <li>Propose and implement design and engineering solutions to ensure optimal and coherent user experiences for Starry’s iOS and android apps</li>
-                      <li>Engineer and maintain RESTful cloud services responsible for communicating with the Starry Station router</li>
+                      <li>Expanded exposure of the unit to generate several million client side impressions per day, adding 1.2 million more monthly active users per year</li>
+                      <li>Redesigned horizontal scrolling unit from scratch, adding 5.5 million more monthly active users per year due to more appealing design</li>
+                      <li>Ranked and sorted the best photos to show users to generate the highest clickthrough rate</li>
                     </ul>
                   </div>
+
                   <div className="exp-item">
                     <div className="job">
-                      <a className="company" href="http://us.mullenlowe.com/" target="_blank">Mullen Lowe U.S.</a>
-                      <div className="duration">July &mdash; Dec 2015</div>
+                      <a className="company" href="http://facebook.com/" target="_blank">FACEBOOK</a>
+                      <div className="duration">May 2016 &mdash; August 2016</div>
                     </div>
-                    <div className="title">Creative Technologist Co-op</div>
+                    <div className="title">Software Engineering Intern</div>
+                    Internet.org’s mission is to make internet access available to the two-thirds of the world who are not yet connected. The Free Facebook team partners with mobile carriers to deliver a limited-capacity Facebook free of data charges.
                     <ul className="description">
-                      <li>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
-                      <li>Tested code in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>
-                      <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Dept. of Defense, and more</li>
+                      <li>Added logic to the Facebook Flex for Android product to determine whether the user should be charged for data, for example for photos and videos</li>
+                      <li>Added a client side Data Saver Mode</li>
+                      <li>Implemented experiments to optimize downtime performance of the app</li>
+                    </ul>
+                  </div>
+
+                  <div className="exp-item">
+                    <div className="job">
+                      <a className="company" href="https://www.seas.upenn.edu/~cis120/" target="_blank">TEACHING ASSISTANT</a>
+                      <div className="duration">January 2015 &mdash; December 2016</div>
+                    </div>
+                    <div className="title">Introductory Computer Science</div>
+                    <ul className="description">
+                      <li>Taught topics in OCaml: functional programming, closures, first-class functions, anonymous types)</li>
+                      <li>Taught topics in Java: dynamic dispatch, hierarchies, collections, program design, IO, GUI design, hashing</li>
+                      <li>Led weekly recitations with a partner, graded homework, held office hours, edited assignments between semesters</li>
+                    </ul>
+                  </div>
+
+                  <div className="exp-item">
+                    <div className="job">
+                      <a className="company" href="http://www.varagesale.com" target="_blank">VARAGESALE</a>
+                      <div className="duration">May 2015 &mdash; August 2015</div>
+                    </div>
+                    <div className="title">Android Developer</div>
+                    VarageSale is an online marketplace where members buy, sell and connect with their local community. Founded in 2012, VarageSale boasts millions of users across North America. Investors include Sequoia Capital and LightSpeed Ventures.
+                    <ul className="description">
+                      <li>Rewrote the central item screen from scratch, with a cutting-edge new design and advanced scrolling animations</li>
+                      <li>Updated all API’s to a restful implementation to optimize loading time across the app</li>
+                      <li>Implemented high performance photo fetching to greatly improve user experience</li>
+                      <li>Exceeded expectations of team by learning the Android platform efficiently and independently</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="projects">
-                <h4>Projects</h4>
+                <h4>Activities</h4>
                 <div className="content">
                   <div className="project-item">
-                    <a className="project-title" href="http://brittanychiang.com/" target="_blank">brittanychiang.com</a>
-                    <p className="project-desc">Portfolio site designed and coded from scratch to showcase my skills and past work</p>
+                    <a className="project-title" href="http://upennsas.com/" target="_blank">UPenn South Asia Society</a>
+                    <p className="project-desc">President of Penn's largest cultural organization</p>
                   </div>
                   <div className="project-item">
-                    <div className="project-title">CourseSource</div>
-                    <p className="project-desc">Web app built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development class. Created with the intention of providing students a better experience browsing the courses offered at Northeastern</p>
+                    <a className="project-title" href="http://www.penndhamaka.com" target="_blank">Penn Dhamaka</a>
+                    <p className="project-desc">Dancer and business manager of Penn's only all-male dance team, performing South Asian fusion styles in our annual show and throughout the country</p>
                   </div>
                   <div className="project-item">
-                    <a className="project-title" href="http://nuwit.ccs.neu.edu/" target="_blank">NU Women in Tech</a>
-                    <p className="project-desc">Club website redesigned and redeveloped as while serving as web chair on e-board</p>
-                  </div>
-                  <div className="project-item">
-                    <a className="project-title" href="http://onecardforall.mullenloweus.com/" target="_blank">One Card For All</a>
-                    <p className="project-desc">2015 Mullen Lowe U.S. holiday site built around an algorithm that generated a holiday greeting to each and every person on the planet</p>
+                    <a className="project-title" href="http://friarsseniorsociety.com" target="_blank">Friars Senior Honor Society</a>
+                    <p className="project-desc">Member of Penn's oldest society of student leaders</p>
                   </div>
                 </div>
               </div>
               <a className="resume" href={this.props.resumeURL} target="_blank"><div className="resume-link">Grab a PDF of my full resume</div></a>
+              <a className="resume" href="index.html" target="_blank"><div className="resume-link">Go Back</div></a>
             </div>
           </div>
         );
@@ -205,8 +229,6 @@
       <App profileData={DATA}/>,
       document.getElementById('content')
     );
-
-
   </script>
 </body>
 </html>

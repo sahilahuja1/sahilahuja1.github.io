@@ -51,6 +51,7 @@ var contents = '<div class="slide-content">Sahil Ahuja</div><div id="slidecaptio
 				'<li><a href="https://www.linkedin.com/in/sahuja1/"><span class="font-icon-social-linkedin"></span></a></li>' + 
 	            '<li><a href="mailto:sahilahu@wharton.upenn.edu"><span class="font-icon-social-email"></span></a></li>' +
 	            '<li><a href="https://github.com/sahilahuja1/"><span class="font-icon-social-github"></span></a></li>' +
+				'<li><a href="resume.html"><span class="font-icon-list"></span></a></li>' +
 				'</ul></nav></div>';
 
 BRUSHED.slider = function(){
