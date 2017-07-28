@@ -233,30 +233,30 @@ BRUSHED.swipebox = function() {
    Contact Form
 ================================================== */
 
-BRUSHED.contactForm = function(){
-	$("#contact-submit").on('click',function() {
-		$contact_form = $('#contact-form');
+// BRUSHED.contactForm = function(){
+// 	$("#contact-submit").on('click',function() {
+// 		$contact_form = $('#contact-form');
 		
-		var fields = $contact_form.serialize();
+// 		var fields = $contact_form.serialize();
 		
-		$.ajax({
-			type: "POST",
-			url: "php/contact.php",
-			data: fields,
-			dataType: 'json',
-			success: function(response) {
+// 		$.ajax({
+// 			type: "POST",
+// 			url: "php/contact.php",
+// 			data: fields,
+// 			dataType: 'json',
+// 			success: function(response) {
 				
-				if(response.status){
-					$('#contact-form input').val('');
-					$('#contact-form textarea').val('');
-				}
+// 				if(response.status){
+// 					$('#contact-form input').val('');
+// 					$('#contact-form textarea').val('');
+// 				}
 				
-				$('#response').empty().html(response.html);
-			}
-		});
-		return false;
-	});
-}
+// 				$('#response').empty().html(response.html);
+// 			}
+// 		});
+// 		return false;
+// 	});
+// }
 
 
 /* ==================================================
